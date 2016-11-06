@@ -1,0 +1,4 @@
+INSTALL
+
+# Build web & PDF:
+grunt build
