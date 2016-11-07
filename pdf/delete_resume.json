@@ -1,0 +1,171 @@
+{
+  "basics": {
+    "name": "Josep Batallé",
+    "label": "Researcher and Fullstack developer",
+    "picture": "",
+    "email": "jbatalle3@gmail.com",
+    "phone": "",
+    "website": "github.io",
+    "summary": "MSc. Josep Batallé is a research engineer at i2CAT Foundation since 2013. He obtained his Technical Engineer in Telecommunications at Rovira i Virgili University (2011) and his Master in Telematics engineering at the Technical University of Catalonia (2013). He has been involved in several European projects such as T-NOVA, GEYSERS, DOLFIN, CHARISMA, SESAME and OFERTIE involving the most relevant topics of the last five years: Network Function Virtualization (NFV), Software Defined Networks (SDN), Network as a Service (NaaS), 5G and so on. Currently he is working in T-NOVA, taking care of the design and development of the core of TeNOR. TeNOR is a NFV orchestrator totally integrated with Openstack and Opendaylight (ODL) that follows the NFV ETSI standards.",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Barcelona",
+      "countryCode": "Spain",
+      "region": ""
+    },
+    "profiles": [
+      {
+        "network": "Linkedin",
+        "username": "jbatalle",
+        "url": "https://goo.gl/pK9ss1"
+      },
+      {
+        "network": "github",
+        "username": "jbatalle",
+        "url": "https://github.com/jbatalle"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "i2CAT Foundation",
+      "position": "Research and projects engineer",
+      "website": "https://i2cat.net",
+      "startDate": "2013-11-01",
+      "endDate": "",
+      "summary": "",
+      "highlights": [
+        "Designer and main developer of the NFV orchestator for the T-NOVA project: TeNOR (https://github.com/T-NOVA/TeNOR)",
+        "Developer of multiple User interfaces (Dashboard) for several projects",
+        "Coworking with CISCO and Barcelona City Council in a proof of concept about FOG Computing"
+      ]
+    },
+    {
+      "company": "i2CAT Foundation",
+      "position": "Intership",
+      "website": "https://i2cat.net",
+      "startDate": "2012-12-15",
+      "endDate": "2013-10-31",
+      "summary": "i2CAT Foundation is a non-profit research and innovation centre which promotes mission-oriented R+D+i activities on advanced Internet architectures, applications and services. The centre stands up for a new open innovation framework, fostering the collaboration between companies, public administration, the academic environment and end-users.",
+      "highlights": [
+        "Designer and main developer of the NFV orchestator for the T-NOVA project: TeNOR (https://github.com/T-NOVA/TeNOR)"
+      ]
+    },
+    {
+      "company": "Artic-Group",
+      "position": "Intership",
+      "website": "",
+      "startDate": "2012-06-01",
+      "endDate": "2012-11-15",
+      "summary": "Artic Group was a company wich provides solución on-line para la Gestión Comercial de Equipos de Ventas, incluye Agenda Comercial, Control y Seguimiento de Oportunidades Comerciales, Presupuestos, Marketing, Mercado con amplias capacidades de informes de gestión y gráficos.",
+      "highlights": [
+        "Development of several webs for different clients. Most importan client: solomoto.es"
+      ]
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "Universitat Politècnica de Catalunya (Barcelona)",
+      "area": "MSc Telematics Engineering",
+      "studyType": "Master",
+      "startDate": "2013-06-01",
+      "endDate": "2011-01-01",
+      "courses": [
+        "DB1101 - Basic SQL",
+        "CS2011 - Java Introduction"
+      ]
+    },
+    {
+      "institution": "Universitat Rovira i Virgili (Tarragona)",
+      "area": "BSc Telematics Engineering",
+      "studyType": "Bachelor",
+      "startDate": "2008-06-01",
+      "endDate": "2011-01-01",
+      "courses": [
+        "DB1101 - Basic SQL",
+        "CS2011 - Java Introduction"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Student ICT research project competition",
+      "date": "2013-11-04",
+      "awarder": "Techcrunch",
+      "summary": "Best student project"
+    }
+  ],
+  "publications": [
+    {
+      "name": "Video compression for 3d media",
+      "publisher": "Hooli",
+      "releaseDate": "2014-10-01",
+      "website": "https://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)",
+      "summary": "Innovative middle-out compression algorithm that changes the way we store data."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Web Development",
+      "level": "Master",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Javascript", "AngularJS", "D3js", "Visjs"
+      ]
+    },
+    {
+      "name": "Backend",
+      "level": "Master",
+      "keywords": [
+        "Ruby (Sinatra, Rails)",
+        "Java (OSGI, Karaf, Spring, Hibernate)",
+        "Python (Django)"
+      ]
+    },
+    {
+      "name": "DevOps",
+      "level": "Master",
+      "keywords": [
+        "Ansible",
+        "Vagrant",
+        "Docker"
+      ]
+    },
+    {
+      "name": "Databases",
+      "level": "Master",
+      "keywords": [
+        "MongoDB",
+        "MySQL",
+        "Apache Cassandra"
+      ]
+    },
+    {
+      "name": "Networking",
+      "keywords": [
+        "SDN (Openflow, ODL, vSwitch)",
+        "NFV",
+        "IPv6"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Fluent"
+    },
+    {
+      "language": "Spanish",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "Catalan",
+      "fluency": "Native speaker"
+    }
+  ],
+  "interests": [],
+  "references": []
+}

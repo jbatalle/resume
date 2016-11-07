@@ -1,0 +1,28 @@
+
+unless _.isEmpty(resume.projects)
+  .detail#publications
+    .icon
+      i.fs-lg.icon-newspaper
+      span.mobile-title Projects
+
+    .info
+      h4.title.text-uppercase Projects
+
+      .content
+        ul.list-unstyled.clear-margin
+          - each project in resume.projects
+            li.card.card-nested
+              .content
+                p.clear-margin
+                  strong
+                    if project.website
+                      a(href=project.website, target="_blank")= project.name
+                      |&nbsp;,&nbsp;
+                    else
+                      |#{project.name + ', '}
+                  |#{project.publisher}
+
+                p.text-muted
+                  small= 'Published on: ' + project.endDate
+
+                .mop-wrapper!= project.summary

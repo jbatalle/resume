@@ -1,49 +1,57 @@
 module.exports = function(grunt) {
     // Project Configuration
     grunt.initConfig({
+        pkg: grunt.file.readJSON('package.json'),
+        less: {
+          development: {
+            options: {
+              paths: ["assets"]
+            },
+            files: {
+              "assets/css/theme.css": "assets/less/theme.less"
+            }
+          }
+        },
+        watch: {
+            styles: {
+                files: ['assets/less/**/*.less'],
+                tasks: ['less'],
+                options: {
+                    nospawn: true
+                }
+            }
+        },
         exec: {
             run_server: {
-                cmd: "node web/serve.js"
+                cmd: "node serve.js"
             },
             build_index: {
-                cmd: "node web/render.js"
-            },
-            build_pdf_html: {
-                cmd: "node pdf/render.js"
-            },
-            pdf: {
-                cmd: "phantomjs pdf/html2pdf.js pdf/index.html pdf/josep_batalle_cv.pdf"
+                cmd: "node render.js"
             }
         },
         copy: {
             resumejson: {
                 cwd: './',
                 src: [ 'resume.json' ],
-                dest: './web/node_modules/resume-schema',
-                expand: true
-            },
-            resumejson_pdf: {
-                cwd: './',
-                src: [ 'resume.json' ],
-                dest: './pdf/node_modules/resume-schema',
+                dest: './node_modules/resume-schema',
                 expand: true
             },
             build: {
                 cwd: './assets/css',
                 src: [ 'theme.css' ],
-                dest: './assets/css',
+                dest: './build/assets/css',
                 expand: true
             },
             favicon: {
-                cwd: '.',
+                cwd: './',
                 src: [ 'favicon.ico' ],
-                dest: '.',
+                dest: './build/',
                 expand: true
             }
         },
         clean: {
             build: {
-                src: [ './' ]
+                src: [ 'build' ]
             }
         }
     });
@@ -70,13 +78,9 @@ module.exports = function(grunt) {
            in the project root.  This will use your own data to build your site.
          */
         // 'copy:resumejson',
-        /*'clean',*/
-        'copy:resumejson',
-        'copy:resumejson_pdf',
+        'clean',
         'copy:build',
-        'exec:build_pdf_html',
-        'exec:pdf',
-        /*'less',*/
+        'less',
         'exec:build_index' //,
         /* Uncomment this item (and the comma above) if you add a favicon.ico
            in the project root. You'll also need to uncomment the <link...> tag

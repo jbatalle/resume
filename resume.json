@@ -1,0 +1,222 @@
+{
+  "basics": {
+    "name": "Josep Batallé",
+    "label": "Researcher and Fullstack developer",
+    "picture": "./photo.jpg",
+    "email": "jbatalle3@gmail.com",
+    "phone": "",
+    "website": "github.io",
+    "summary": "MSc. Josep Batallé is a research engineer at i2CAT Foundation since 2013. He obtained his Technical Engineer in Telecommunications at Rovira i Virgili University (2011) and his Master in Telematics engineering at the Technical University of Catalonia (2013). He has been involved in several European projects such as T-NOVA, GEYSERS, DOLFIN, CHARISMA, SESAME and OFERTIE involving the most relevant topics of the last five years: Network Function Virtualization (NFV), Software Defined Networks (SDN), Network as a Service (NaaS), 5G and so on. Currently he is working in T-NOVA, taking care of the design and development of the core of TeNOR. TeNOR is a NFV orchestrator totally integrated with Openstack and Opendaylight (ODL) that follows the NFV ETSI standards.",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Barcelona",
+      "countryCode": "Spain",
+      "region": ""
+    },
+    "profiles": [
+      {
+        "network": "Linkedin",
+        "username": "jbatalle",
+        "url": "https://goo.gl/pK9ss1"
+      },
+      {
+        "network": "github",
+        "username": "jbatalle",
+        "url": "https://github.com/jbatalle"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "i2CAT Foundation",
+      "position": "Research and projects engineer",
+      "website": "https://i2cat.net",
+      "startDate": "2013-11-01",
+      "endDate": "",
+      "summary": "",
+      "highlights": [
+        "Designer and main developer of the NFV orchestrator for the T-NOVA project: TeNOR (https://github.com/T-NOVA/TeNOR)",
+        "Designer and developer of an OpenAccess platform for the CONTENT, SODALES and CHARISMA projects.",
+        "Developer of multiple User interfaces (Dashboard) for several projects",
+        "Coworking with CISCO and Barcelona City Council in a proof of concept about FOG Computing",
+        "Technologies used: Ruby, Java, Javascript, MongoDB, ElasticSearch."
+      ]
+    },
+    {
+      "company": "i2CAT Foundation",
+      "position": "Intership",
+      "website": "https://i2cat.net",
+      "startDate": "2012-12-15",
+      "endDate": "2013-10-31",
+      "summary": "i2CAT Foundation is a non-profit research and innovation centre which promotes mission-oriented R+D+i activities on advanced Internet architectures, applications and services. The centre stands up for a new open innovation framework, fostering the collaboration between companies, public administration, the academic environment and end-users.",
+      "highlights": [
+        "Designer and developer of a Management interface for GEYSERS project. Implementation of the backend in a Network as a Service platform.",
+        "Proof of concept in NFV.",
+        "Technologies used: Java, Javascript, HTML."
+      ]
+    },
+    {
+      "company": "Artic-Group",
+      "position": "Intership",
+      "website": "",
+      "startDate": "2012-06-01",
+      "endDate": "2012-11-15",
+      "summary": "Artic Group was a technology consulting and specialized in web presence and positioning.",
+      "highlights": [
+        "Development of several webs for different clients. Most importan client: solomoto.es",
+        "Technologies used: PHP, Bash, HTML."
+      ]
+    }
+  ],
+  "projects": [
+       {
+       "name": "TeNOR",
+       "summary": "NFV Orchestrator platform developed by the T-NOVA project, responsible for managing the entire NFV lifecycle service.",
+       "highlights": [ 
+         ""
+       ],
+       "tech": [
+         "Ruby", "MongoDB", "Openstack", "NFV", "SDN"
+       ],
+       "startDate": "2014-08-24",
+       "endDate": "", 
+       "website": "http://github.com/T-NOVA/TeNOR",
+       "team": []
+       }
+  ],
+  "education": [
+    {
+      "institution": "Universitat Politècnica de Catalunya (Barcelona)",
+      "area": "MSc Telematics Engineering",
+      "studyType": "Master",
+      "startDate": "2013-06-01",
+      "endDate": "2011-01-01",
+      "courses": [
+      ]
+    },
+    {
+      "institution": "Universitat Rovira i Virgili (Tarragona)",
+      "area": "BSc Telematics Engineering",
+      "studyType": "Bachelor",
+      "startDate": "2008-06-01",
+      "endDate": "2011-01-01",
+      "courses": [
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Student ICT research project competition",
+      "date": "2013-11-04",
+      "awarder": "Techcrunch",
+      "summary": "Best student project"
+    }
+  ],
+  "publications": [
+    {
+      "name": "TeNOR: Steps towards an orchestration platform for multi-PoP NFV deployment",
+      "publisher": "IEEE",
+      "releaseDate": "2016-06-06",
+      "website": "http://ieeexplore.ieee.org/document/7502419/",
+      "summary": ""
+    },
+    {
+      "name": "Virtual network function scheduling: Concept and challenges",
+      "publisher": "IEEE",
+      "releaseDate": "2014-06-18",
+      "website": "http://ieeexplore.ieee.org/document/6867768/",
+      "summary": ""
+    },
+    {
+      "name": "On the Implementation of NFV over an OpenFlow Infrastructure: Routing Function Virtualization",
+      "publisher": "IEEE",
+      "releaseDate": "2013-11-11",
+      "website": "http://ieeexplore.ieee.org/document/6702546/",
+      "summary": ""
+    },
+    {
+      "name": "Management of Virtual Infrastructures through OpenNaaS",
+      "publisher": "IEEE",
+      "releaseDate": "2013-06-17",
+      "website": "http://ieeexplore.ieee.org/document/6654560/",
+      "summary": ""
+    }
+  ],
+  "skills": [
+    {
+      "name": "Backend",
+      "level": "Master",
+      "keywords": [
+        "Ruby (Sinatra, Rails)",
+        "Java (OSGI, Karaf, Spring, Hibernate)",
+        "Python (Django)",
+        "NodeJS",
+        "RabbitMq"
+      ]
+    },
+    {
+      "name": "Frontend",
+      "level": "Master",
+      "keywords": [
+        "HTML && CSS",
+        "Javascript(AngularJS, D3js, Visjs)",
+        "PHP (Drupal, Wordpress)"
+      ]
+    },
+    {
+      "name": "Databases",
+      "level": "Master",
+      "keywords": [
+        "SQL: MySQL, Postgre",
+        "NoSQL: MongoDB, EApache Cassandra, ElasticSearch"
+      ]
+    },
+    {
+      "name": "DevOps",
+      "level": "Master",
+      "keywords": [
+        "Ansible",
+        "Vagrant",
+        "Docker",
+        "OpenStack"
+      ]
+    },
+    {
+      "name": "Networking",
+      "level": "Master",
+      "keywords": [
+        "SDN (Openflow, ODL, vSwitch)",
+        "NFV",
+        "IPv6"
+      ]
+    },
+    {
+      "name": "Source control and CI/CD",
+      "level": "Master",
+      "keywords": [
+        "Jenkins",
+        "Travis",
+        "Git",
+        "SVN"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Fluent"
+    },
+    {
+      "language": "Spanish",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "Catalan",
+      "fluency": "Native speaker"
+    }
+  ],
+  "volunteer": [],
+  "interests": [],
+  "references": []
+}
