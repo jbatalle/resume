@@ -5,7 +5,7 @@
     "picture": "./photo.jpg",
     "email": "jbatalle3@gmail.com",
     "phone": "",
-    "website": "github.io",
+    "website": "https://jbatalle.github.io/resume",
     "summary": "MSc. Josep Batallé is a research engineer at i2CAT Foundation since 2013. He obtained his Technical Engineer in Telecommunications at Rovira i Virgili University (2011) and his Master in Telematics engineering at the Technical University of Catalonia (2013). He has been involved in several European projects such as T-NOVA, GEYSERS, DOLFIN, CHARISMA, SESAME and OFERTIE involving the most relevant topics of the last five years: Network Function Virtualization (NFV), Software Defined Networks (SDN), Network as a Service (NaaS), 5G and so on. Currently he is working in T-NOVA, taking care of the design and development of the core of TeNOR. TeNOR is a NFV orchestrator totally integrated with Openstack and Opendaylight (ODL) that follows the NFV ETSI standards.",
     "location": {
       "address": "",
