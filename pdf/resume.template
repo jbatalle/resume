@@ -134,9 +134,9 @@
                       </small>
                     </p>
                     <i>{{gpa}}</i>
-                    <div class="space-top labels">
-                      {{#courses}} <span class="label label-keyword">{{.}}</span> {{/courses}}
-                    </div>
+                    <!--div class="space-top labels">
+                      {{#courses}} {{.}} {{/courses}}
+                    </div-->
                   </div>
                 </li>
               {{/each}}
@@ -151,7 +151,7 @@
               </li>
               {{/each}}
             </ul>
-
+<br/><br/><br/><br/><br/>
             {{#if resume.projects}}
             <h4  id="publications"><span class="fa fa-lg fa-book"></span> <span class="title">Projects</span> </h4>
             <ul class="list-unstyled">
@@ -168,6 +168,12 @@
                       <small> Published on: {{startDate}} </small>
                     </p>
                     <p class="clear-margin">{{summary}}</p>
+					<div class="space-top labels">
+                      {{#tech}} <span class="label label-keyword">{{.}}</span> {{/tech}}
+					</div>
+					<div class="space-top labels">
+
+                    </div>
                   </div>
                   
                 </li>
