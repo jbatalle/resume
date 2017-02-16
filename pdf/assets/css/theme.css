@@ -418,4 +418,13 @@ h4 > .fa {
     font-size: 100%;
   }
 
+.label-keyword {
+  display: inline-block;
+  background: #7eb0db !important;
+  color: white;
+  font-size: 0.9em;
+  padding: 5px;
+  border: 1px solid #357ebd;
+}
+
 }
