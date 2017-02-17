@@ -20,3 +20,8 @@ $ ./serve.js [optional_resume_filename] // Do this in a separate terminal to run
 
 Visit [http://localhost:8888](http://localhost:8888) to see the theme in action.
 
+
+# TO build the HTML
+```
+node serve.js
+```

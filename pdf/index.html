@@ -54,6 +54,7 @@ body {
   background: #f0f0f0;
   color: #333333;
   font-size: 16px;
+  text-align: justify;
 }
 .text-bolder {
   font-weight: bold;
@@ -111,6 +112,10 @@ body {
 }
 .contact-details {
   display: table-cell;
+  text-align: left;
+}
+.detail {
+  float: left;
 }
 .contact-details .detail {
   display: inline-block;
@@ -472,23 +477,13 @@ h4 > .fa {
                       </span>
                     </div>
 
-                    <div class="detail">
-                      <span class="icon">
-                        <i class="fa fa-lg fa-map-marker"></i>
-                      </span>
-
-                        <span class="info">
-                          Barcelona, Spain
-                        </span>
-                    </div>
 					<div class="detail">
                       <span class="icon">
 						<a class="" href="https://goo.gl/pK9ss1" target="_blank">
 	                        <i class="fa fa-lg fa-linkedin"></i>
 						</a>
                       </span>
-
-                        <span class="info">
+						<span class="info">
 						<a class="link-disguise" href="https://goo.gl/pK9ss1" target="_blank">
 							https://goo.gl/pK9ss1
 						</a>
@@ -500,8 +495,7 @@ h4 > .fa {
 	                        <i class="fa fa-lg fa-github"></i>
 						</a>
                       </span>
-
-                        <span class="info">
+						<span class="info">
 						<a class="link-disguise" href="https://github.com/jbatalle" target="_blank">
 							https://github.com/jbatalle
 						</a>
@@ -519,7 +513,7 @@ h4 > .fa {
 
             <h4 id="about"> <span class="fa fa-lg fa-user"></span> <span class="title">About</span> </h4>
             <div class="card-nested" itemprop="description">
-              <p> MSc. Josep Batallé is a research engineer who obtained his Technical Engineer in Telecommunications at Rovira i Virgili University (2011) and his Master in Telematics engineering at the Polytechnic University of Catalonia (2013). He has been involved at i2CAT Foundantion in several European projects such as T-NOVA, GEYSERS, DOLFIN, CHARISMA, SESAME and OFERTIE involving the most relevant topics of the last five years: Network Function Virtualization (NFV), Software Defined Networks (SDN), Network as a Service (NaaS), 5G... Currently he is working in T-NOVA, taking care of the design and development of the core of TeNOR. TeNOR is a NFV orchestrator totally integrated with Openstack and Opendaylight (ODL) that follows the NFV ETSI standards. </p>
+              <p> MSc. Josep Batallé is a research engineer who obtained his Technical Engineer in Telecommunications at Rovira i Virgili University (2011) and his Master in Telematics engineering at the Polytechnic University of Catalonia (2013). He has been involved at i2CAT Foundantion in several European projects such as T-NOVA, CHARISMA, SESAME, SODALES, GEYSERS and other European Projects (FP7 and H2020) involving the most relevant topics of the last five years: Network Function Virtualization (NFV), Software Defined Networks (SDN), Network as a Service (NaaS), 5G... Currently he is working in T-NOVA, taking care of the design and development of the core of TeNOR. TeNOR is a NFV orchestrator totally integrated with Openstack and Opendaylight (ODL) that follows the NFV ETSI standards. </p>
             </div>
 
             <h4 id="work-experience"> <span class="fa fa-lg fa-pencil-square-o"></span> <span class="title">Work Experience</span> </h4>
@@ -539,10 +533,10 @@ h4 > .fa {
                     <p></p>
                       <ul>
                           <li> Designer and main developer of the NFV orchestrator for the T-NOVA project: TeNOR. </li>
-                          <li> Designer and developer of an OpenAccess platform for the CONTENT, SODALES and CHARISMA projects. </li>
+                          <li> Designer and developer of an OpenAccess platform for CONTENT, SODALES and CHARISMA. </li>
                           <li> Developer of multiple User interfaces (Dashboard) for several projects. </li>
                           <li> Coworking with CISCO and Barcelona City Council in a proof of concept about FOG Computing. </li>
-                          <li> Technologies used: Ruby, Java, Javascript, MongoDB, ElasticSearch. </li>
+                          <li> Technologies used: Ruby, Java, Javascript, MongoDB, ElasticSearch, Docker, Kubernetes, Ansible. </li>
                       </ul>
                   </div>
 
@@ -563,7 +557,7 @@ h4 > .fa {
                       <ul>
                           <li> Designer and developer of a Management interface for GEYSERS project. Implementation of the backend in a Network as a Service platform. </li>
                           <li> Proof of concept in NFV. </li>
-                          <li> Technologies used: Java, Javascript, HTML. </li>
+                          <li> Technologies used: Java, Javascript, HTML, MySQ L. </li>
                       </ul>
                   </div>
 
@@ -580,10 +574,10 @@ h4 > .fa {
                          <span> <i class="fa fa-clock-o icon-left"></i> 5 months </span> 
                       </small>
                     </p>
-                    <p>Artic Group was a technology consulting and specialized in web presence and positioning.</p>
+                    <p>Artic Group was a technology consulting specialized in web presence and positioning.</p>
                       <ul>
                           <li> Development of several webs for different clients. Most importan client: solomoto.es </li>
-                          <li> Technologies used: PHP, Bash, HTML. </li>
+                          <li> Technologies used: PHP, Bash, HTML, MySQL. </li>
                       </ul>
                   </div>
 
@@ -605,6 +599,9 @@ h4 > .fa {
                       </small>
                     </p>
                     <i></i>
+					<p class="text-muted">
+						Project/Thesis: <strong>Experimentation on Virtualized Routing Function Migration Using OpenFlow</strong> Design of a virtualized routing protocol over an OpenFlow network. Demonstrate the applicability of the NFV-powered implementation proposed into actual production environments.
+					</p>
                     <!--div class="space-top labels">
                        Experimentation on Virtualized Routing Function Migration Using OpenFlow 
                     </div-->
@@ -622,6 +619,9 @@ h4 > .fa {
                       </small>
                     </p>
                     <i></i>
+					<p class="text-muted">
+						Project/Thesis: <strong>Intelligent analysis of sounds in real time</strong> Detecting musical notes of diferent instruments using matematic analysis.
+					</p>
                     <!--div class="space-top labels">
                        Intelligent analysis of sounds in real time 
                     </div-->
@@ -641,11 +641,11 @@ h4 > .fa {
               </li>
                 <li class="card-nested skill">
                   <strong>Databases:</strong> 
-                   <span class="enumeration">SQL: MySQL, Postgre</span>  <span class="enumeration">NoSQL: MongoDB, EApache Cassandra, ElasticSearch</span> 
+                   <span class="enumeration">SQL: MySQL, Postgre</span>  <span class="enumeration">NoSQL: MongoDB, Apache Cassandra, ElasticSearch</span> 
               </li>
                 <li class="card-nested skill">
                   <strong>DevOps:</strong> 
-                   <span class="enumeration">Ansible</span>  <span class="enumeration">Vagrant</span>  <span class="enumeration">Docker</span>  <span class="enumeration">OpenStack</span> 
+                   <span class="enumeration">Ansible</span>  <span class="enumeration">Vagrant</span>  <span class="enumeration">Docker</span>  <span class="enumeration">OpenStack</span>  <span class="enumeration">Kubernetes</span> 
               </li>
                 <li class="card-nested skill">
                   <strong>Networking:</strong> 
@@ -672,7 +672,28 @@ h4 > .fa {
                     </p>
                     <p class="clear-margin">NFV Orchestrator platform developed by the T-NOVA project, responsible for managing the entire NFV lifecycle service. TeNOR covers the orchestration and lifecycle management of software resources that support the infrastructure virtualisation, and the lifecycle management of VNFs. The VNFs are deployed over Openstack.</p>
 					<div class="space-top labels">
-                       <span class="label label-keyword">Ruby</span>  <span class="label label-keyword">MongoDB</span>  <span class="label label-keyword">Openstack</span>  <span class="label label-keyword">NFV</span>  <span class="label label-keyword">SDN</span> 
+                       <span class="label label-keyword">Ruby</span>  <span class="label label-keyword">MongoDB</span>  <span class="label label-keyword">Openstack</span>  <span class="label label-keyword">NFV</span>  <span class="label label-keyword">SDN</span>  <span class="label label-keyword">ElasticSearch</span>  <span class="label label-keyword">Cassandra</span>  <span class="label label-keyword">AngularJS</span> 
+					</div>
+					<div class="space-top labels">
+
+                    </div>
+                  </div>
+                  
+                </li>
+                <li class="card-nested">
+                  <div class="content has-sidebar">
+                    <p class="clear-margin-sm">
+                      <strong>
+                         <a href="https://bitbucket.org/jbatalle/google-music-for-amarok"  target="_blank">Google music for Amarok</a> 
+                      </strong>,&nbsp;
+                      https://bitbucket.org/jbatalle/google-music-for-amarok
+                    </p>
+                    <p class="text-muted">
+                      <small> Published on: 2013-01-27 </small>
+                    </p>
+                    <p class="clear-margin">Google music for Amarok was a plugin for Amarok, a cross-platform free and open-source music player. That plugin connect the Google Music Account with Amarok in order to reproduce or download the songs saved in Google Music.</p>
+					<div class="space-top labels">
+                       <span class="label label-keyword">Javascript</span>  <span class="label label-keyword">Kde</span>  <span class="label label-keyword">Amarok</span> 
 					</div>
 					<div class="space-top labels">
 
@@ -681,7 +702,87 @@ h4 > .fa {
                   
                 </li>
             </ul>
+  
+            <h4 id="awards"><span class="fa fa-lg fa-trophy"></span> <span class="title">Awards</span></h4>
+            <ul class="list-unstyled">
+                <li class="card-nested">
+                  <div class="content has-sidebar">
+                    <p class="clear-margin-sm" itemprop="award">
+                      <strong>Student ICT research project competition</strong>,&nbsp;
+                      
+                    </p>
+                    <p class="text-muted">
+                      <small> Awarded on: Nov 2013 </small>
+                    </p>
+                    <p> Best student project </p>
+                  </div>
+                </li>
+            </ul>
 
+
+            <h4  id="publications"><span class="fa fa-lg fa-book"></span> <span class="title">Publications</span> </h4>
+            <ul class="list-unstyled">
+                <li class="card-nested">
+                  <div class="content has-sidebar">
+                    <p class="clear-margin-sm">
+                      <strong>
+                         <a href="http://ieeexplore.ieee.org/document/7502419/"  target="_blank">TeNOR: Steps towards an orchestration platform for multi-PoP NFV deployment</a> 
+                      </strong>,&nbsp;
+                      IEEE NetSoft Conference and Workshops (NetSoft)
+                    </p>
+                    <p class="text-muted">
+                      <small> Published on: Jun 06, 2016 </small>
+                    </p>
+                    <p class="clear-margin"></p>
+                  </div>
+                  
+                </li>
+                <li class="card-nested">
+                  <div class="content has-sidebar">
+                    <p class="clear-margin-sm">
+                      <strong>
+                         <a href="http://ieeexplore.ieee.org/document/6867768/"  target="_blank">Virtual network function scheduling: Concept and challenges</a> 
+                      </strong>,&nbsp;
+                      International Conference on Smart Communications in Network Technologies (SaCoNeT)
+                    </p>
+                    <p class="text-muted">
+                      <small> Published on: Jun 18, 2014 </small>
+                    </p>
+                    <p class="clear-margin"></p>
+                  </div>
+                  
+                </li>
+                <li class="card-nested">
+                  <div class="content has-sidebar">
+                    <p class="clear-margin-sm">
+                      <strong>
+                         <a href="http://ieeexplore.ieee.org/document/6702546/"  target="_blank">On the Implementation of NFV over an OpenFlow Infrastructure: Routing Function Virtualization</a> 
+                      </strong>,&nbsp;
+                      IEEE SDN for Future Networks and Services (SDN4FNS)
+                    </p>
+                    <p class="text-muted">
+                      <small> Published on: Nov 11, 2013 </small>
+                    </p>
+                    <p class="clear-margin"></p>
+                  </div>
+                  
+                </li>
+                <li class="card-nested">
+                  <div class="content has-sidebar">
+                    <p class="clear-margin-sm">
+                      <strong>
+                         <a href="http://ieeexplore.ieee.org/document/6654560/"  target="_blank">Management of Virtual Infrastructures through OpenNaaS</a> 
+                      </strong>,&nbsp;
+                      International Conference on Smart Communications in Network Technologies (SaCoNeT)
+                    </p>
+                    <p class="text-muted">
+                      <small> Published on: Jun 17, 2013 </small>
+                    </p>
+                    <p class="clear-margin"></p>
+                  </div>
+                  
+                </li>
+            </ul>
 
 
 

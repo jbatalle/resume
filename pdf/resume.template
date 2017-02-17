@@ -65,14 +65,13 @@
 	                        <i class="fa fa-lg fa-{{toClassName network}}"></i>
 						</a>
                       </span>
-
-                        <span class="info">
+						<span class="info">
 						<a class="link-disguise" href="{{url}}" target="_blank">
 							{{url}}
 						</a>
                         </span>
                     </div>
-              {{/profiles}}
+	              {{/profiles}}
                 </div>
             </div>
           </div>
@@ -134,6 +133,9 @@
                       </small>
                     </p>
                     <i>{{gpa}}</i>
+					<p class="text-muted">
+						Project/Thesis: <strong>{{thesis}}</strong> {{thesis_description}}
+					</p>
                     <!--div class="space-top labels">
                       {{#courses}} {{.}} {{/courses}}
                     </div-->

@@ -41,6 +41,7 @@ body {
   background: #f0f0f0;
   color: #333333;
   font-size: 16px;
+  text-align: justify;
 }
 .text-bolder {
   font-weight: bold;
@@ -98,6 +99,10 @@ body {
 }
 .contact-details {
   display: table-cell;
+  text-align: left;
+}
+.detail {
+  float: left;
 }
 .contact-details .detail {
   display: inline-block;

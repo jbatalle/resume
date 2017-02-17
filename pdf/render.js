@@ -6,10 +6,13 @@
 //
 
 var fs = require('fs');
-var resume = require("resume-schema").resumeJson;
+//var resume = require("resume-schema").resumeJson;
+console.log(resume);
+var resume = require("../resume.json"); 
+console.log(resume);
 var theme = require("./index.js");
 
-fs.writeFile("./pdf/index.html", render(), function(err) {
+fs.writeFile("./index.html", render(), function(err) {
     if(err) {
         console.log(err);
     } else {
