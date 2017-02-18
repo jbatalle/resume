@@ -5,7 +5,7 @@
     "picture": "./photo.jpg",
     "email": "jbatalle3@gmail.com",
     "phone": "",
-    "summary": "MSc. Josep Batallé is a research engineer who obtained his Technical Engineer in Telecommunications at Rovira i Virgili University (2011) and his Master in Telematics engineering at the Polytechnic University of Catalonia (2013). He has been involved at i2CAT Foundantion in several European projects such as T-NOVA, CHARISMA, SESAME, SODALES, GEYSERS and other European Projects (FP7 and H2020) involving the most relevant topics of the last five years: Network Function Virtualization (NFV), Software Defined Networks (SDN), Network as a Service (NaaS), 5G... Currently he is working in T-NOVA, taking care of the design and development of the core of TeNOR. TeNOR is a NFV orchestrator totally integrated with Openstack and Opendaylight (ODL) that follows the NFV ETSI standards.",
+    "summary": "MSc. Josep Batallé is a research engineer who obtained his Technical Engineer in Telecommunications at Rovira i Virgili University (2011) and his Master in Telematics engineering at the Polytechnic University of Catalonia (2013). He has been involved at i2CAT Foundantion in several European projects (FP7 and H2020) such as T-NOVA, CHARISMA, SESAME, SODALES, GEYSERS and others, involving the most relevant topics of the last five years: Network Function Virtualization (NFV), Software Defined Networks (SDN), Network as a Service (NaaS), 5G...",
     "website": "https://jbatalle.github.io/resume",
     "address": "",
     "postalCode": "",
@@ -38,7 +38,7 @@
         "Designer and developer of an OpenAccess platform for CONTENT, SODALES and CHARISMA.",
         "Developer of multiple User interfaces (Dashboard) for several projects.",
         "Coworking with CISCO and Barcelona City Council in a proof of concept about FOG Computing.",
-        "Technologies used: Ruby, Java, Javascript, MongoDB, ElasticSearch, Docker, Kubernetes, Ansible."
+        "Technologies used: Ruby, Java, Javascript, MongoDB, ElasticSearch, Docker, Kubernetes, Ansible, Openflow."
       ]
     },
     {
@@ -51,7 +51,7 @@
       "highlights": [
         "Designer and developer of a Management interface for GEYSERS project. Implementation of the backend in a Network as a Service platform.",
         "Proof of concept in NFV.",
-        "Technologies used: Java, Javascript, HTML, MySQ L."
+        "Technologies used: Java, Javascript, HTML, MySQL, Openflow."
       ]
     },
     {
@@ -70,7 +70,7 @@
   "projects": [
     {
       "name": "TeNOR",
-      "summary": "NFV Orchestrator platform developed by the T-NOVA project, responsible for managing the entire NFV lifecycle service. TeNOR covers the orchestration and lifecycle management of software resources that support the infrastructure virtualisation, and the lifecycle management of VNFs. The VNFs are deployed over Openstack.",
+      "summary": "NFV Orchestrator platform developed by the T-NOVA project, responsible for managing the entire NFV lifecycle service. TeNOR covers the orchestration and lifecycle management of software resources that support the infrastructure virtualisation, and the lifecycle management of Virtual Network Functions (VNF). TeNOR is totally integrated with Openstack and Opendaylight (ODL) and follows the NFV ETSI standards. ",
       "highlights": [
         ""
       ],
@@ -93,7 +93,7 @@
     },
     {
       "name": "Google music for Amarok",
-      "summary": "Google music for Amarok was a plugin for Amarok, a cross-platform free and open-source music player. That plugin connect the Google Music Account with Amarok in order to reproduce or download the songs saved in Google Music.",
+      "summary": "Google music for Amarok was a plugin for Amarok(a cross-platform free and open-source music player). That plugin connect the Google Music Account with Amarok in order to reproduce or download the songs saved in Google Music.",
       "highlights": [
         ""
       ],
@@ -112,7 +112,7 @@
   ],
   "education": [
     {
-      "institution": "Universitat Politècnica de Catalunya (Barcelona)",
+      "institution": "Universitat Politècnica de Catalunya (Barcelona, Spain)",
       "area": "MSc Telematics Engineering",
       "studyType": "Master",
       "startDate": "2011-01-01",
@@ -124,7 +124,7 @@
       ]
     },
     {
-      "institution": "Universitat Rovira i Virgili (Tarragona)",
+      "institution": "Universitat Rovira i Virgili (Tarragona, Spain)",
       "area": "BSc Telematics Engineering",
       "studyType": "Bachelor",
       "startDate": "2008-06-01",
@@ -138,10 +138,10 @@
   ],
   "awards": [
     {
-      "title": "Student ICT research project competition",
+      "title": "Best research student project at the ICT 2013 in Vilnius (Lithuania)",
       "date": "2013-11-04",
       "awarder": "",
-      "summary": "Best student project"
+      "summary": "The project presented different uses cases for virtualize the routing function over an Openflow network."
     }
   ],
   "publications": [

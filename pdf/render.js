@@ -9,7 +9,6 @@ var fs = require('fs');
 //var resume = require("resume-schema").resumeJson;
 console.log(resume);
 var resume = require("../resume.json"); 
-console.log(resume);
 var theme = require("./index.js");
 
 fs.writeFile("./index.html", render(), function(err) {

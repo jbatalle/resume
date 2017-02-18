@@ -107,7 +107,7 @@ body {
 .contact-details .detail {
   display: inline-block;
   line-height: 2;
-  margin-right: 2rem;
+  margin-right: 1rem;
 }
 .contact-details .detail .icon {
   padding-right: 7px;
@@ -376,7 +376,7 @@ h4 > .fa {
 }
 @media print {
   body {
-    font-size: 10pt;
+    font-size: 8pt;
   }
   a[href]:after {
     content: none !important;
@@ -411,7 +411,7 @@ h4 > .fa {
 /*    display: none !important;*/
   }
   .card-nested {
-    padding: .5rem 0 .5rem 0;
+    padding: .3rem 0 .5rem 0;
   }
   .labels {
     display: inline;
@@ -423,13 +423,16 @@ h4 > .fa {
     font-size: 100%;
   }
 
-.label-keyword {
-  display: inline-block;
-  background: #7eb0db !important;
-  color: white;
-  font-size: 0.9em;
-  padding: 5px;
-  border: 1px solid #357ebd;
-}
+  .label-keyword {
+    display: inline-block;
+    background: #7eb0db !important;
+    color: white;
+    font-size: 0.9em;
+    padding: 5px;
+    border: 1px solid #357ebd;
+  }
+  .clear-margin-sm {
+    margin-bottom: 0px;
+  }
 
 }
