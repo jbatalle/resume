@@ -5,7 +5,7 @@
     "picture": "./photo.jpg",
     "email": "jbatalle3@gmail.com",
     "phone": "",
-    "summary": "MSc. Josep Batallé is a research engineer who obtained his Technical Engineer in Telecommunications at Rovira i Virgili University (2011) and his Master in Telematics engineering at the Polytechnic University of Catalonia (2013). He has been involved at i2CAT Foundantion in several European projects (FP7 and H2020) such as T-NOVA, CHARISMA, SESAME, SODALES, GEYSERS and others, involving the most relevant topics of the last five years: Network Function Virtualization (NFV), Software Defined Networks (SDN), Network as a Service (NaaS), 5G...",
+    "summary": "MSc. Josep Batallé is a research engineer who obtained his Technical Engineer in Telecommunications at Rovira i Virgili University (2011) and his Master in Telematics engineering at the Polytechnic University of Catalonia (2013). He has been involved at i2CAT Foundation in several European projects (FP7 and H2020) such as T-NOVA, CHARISMA, SESAME, SODALES, GEYSERS and others, involving the most relevant topics of the last five years: Network Function Virtualization (NFV), Software Defined Networks (SDN), Network as a Service (NaaS), 5G...",
     "website": "https://jbatalle.github.io/resume",
     "address": "",
     "postalCode": "",
@@ -38,6 +38,7 @@
         "Designer and developer of an OpenAccess platform for CONTENT, SODALES and CHARISMA.",
         "Developer of multiple User interfaces (Dashboard) for several projects.",
         "Coworking with CISCO and Barcelona City Council in a proof of concept about FOG Computing.",
+		"Experience developing over Openflow controllers (Opendaylight (ODL) and Floodlight).",
         "Technologies used: Ruby, Java, Javascript, MongoDB, ElasticSearch, Docker, Kubernetes, Ansible, Openflow."
       ]
     },
@@ -62,7 +63,7 @@
       "endDate": "2012-11-15",
       "summary": "Artic Group was a technology consulting specialized in web presence and positioning.",
       "highlights": [
-        "Development of several webs for different clients. Most importan client: solomoto.es",
+        "Development of several webs for different clients. Most important client: solomoto.es",
         "Technologies used: PHP, Bash, HTML, MySQL."
       ]
     }
@@ -117,10 +118,10 @@
       "studyType": "Master",
       "startDate": "2011-01-01",
       "endDate": "2013-06-01",
-      "thesis": "Experimentation on Virtualized Routing Function Migration Using OpenFlow",
-      "thesis_description": "Design of a virtualized routing protocol over an OpenFlow network. Demonstrate the applicability of the NFV-powered implementation proposed into actual production environments.",
+      "thesis": "Experimentation on Virtualised Routing Function Migration Using OpenFlow",
+      "thesis_description": "Design of a virtualised routing protocol over an OpenFlow network. Demonstrate the applicability of the NFV-powered implementation proposed into actual production environments.",
       "courses": [
-        "Experimentation on Virtualized Routing Function Migration Using OpenFlow"
+        "Experimentation on Virtualised Routing Function Migration Using OpenFlow"
       ]
     },
     {
@@ -130,7 +131,7 @@
       "startDate": "2008-06-01",
       "endDate": "2011-01-01",
       "thesis": "Intelligent analysis of sounds in real time",
-      "thesis_description": "Detecting musical notes of diferent instruments using matematic analysis.",
+      "thesis_description": "Detecting musical notes of different instruments using mathematical analysis.",
       "courses": [
         "Intelligent analysis of sounds in real time"
       ]
@@ -141,7 +142,7 @@
       "title": "Best research student project at the ICT 2013 in Vilnius (Lithuania)",
       "date": "2013-11-04",
       "awarder": "",
-      "summary": "The project presented different uses cases for virtualize the routing function over an Openflow network."
+      "summary": "The project presented different uses cases for virtualise the routing function over an Openflow network."
     }
   ],
   "publications": [
@@ -160,7 +161,7 @@
       "summary": ""
     },
     {
-      "name": "On the Implementation of NFV over an OpenFlow Infrastructure: Routing Function Virtualization",
+      "name": "On the Implementation of NFV over an OpenFlow Infrastructure: Routing Function Virtualisation",
       "publisher": "IEEE SDN for Future Networks and Services (SDN4FNS)",
       "releaseDate": "2013-11-11",
       "website": "http://ieeexplore.ieee.org/document/6702546/",
